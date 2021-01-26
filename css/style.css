@@ -1206,6 +1206,8 @@ body {
       -ms-flex-align: center;
           align-items: center;
   padding: 140px 0 140px 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .partners-logos-item {
