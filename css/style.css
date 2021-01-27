@@ -113,10 +113,10 @@ body {
   }
   .menu {
     position: absolute;
-    top: -30px;
-    right: 120%;
+    top: -20px;
+    right: 150%;
     width: 115px;
-    padding: 15px 0 15px 15px;
+    padding: 5px 0 5px 15px;
     display: none;
     margin: 6% 1% 0 0;
   }
@@ -156,12 +156,16 @@ body {
   margin-right: 332px;
   position: relative;
   font-family: "Raleway", Arial, monospace;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .header-logo {
   position: absolute;
   top: -25%;
   right: 100%;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .navigation-item {
@@ -1206,8 +1210,6 @@ body {
       -ms-flex-align: center;
           align-items: center;
   padding: 140px 0 140px 0;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
 }
 
 .partners-logos-item {
@@ -1854,15 +1856,23 @@ body {
     padding: 5px 0;
   }
   .nav-link {
-    font-size: 12px;
-    padding: 5px 7px;
-    width: 60px;
+    font-size: 14px;
+    padding: 7px 0 7px 10px;
+    width: 90px;
   }
   .menu {
-    width: 80px;
+    width: 100px;
+    right: 110%;
   }
   .header-icon-btn {
-    padding: 10px 6px 6px 6px;
+    padding: 10px 8px 6px 8px;
+  }
+  .logo {
+    font-size: 28px;
+  }
+  .header-logo {
+    width: 45px;
+    height: 47px;
   }
 }
 /*# sourceMappingURL=style.css.map */
