@@ -131,6 +131,7 @@ body {
   .nav-link {
     display: block;
     padding: 7px 0 7px 10px;
+    width: 100%;
   }
   .nav-link:hover {
     color: #C7B299;
@@ -1858,12 +1859,16 @@ body {
   .nav-link {
     font-size: 14px;
     padding: 7px 0 7px 10px;
-    width: 90px;
+    text-align: center;
+    width: 98%;
   }
   .menu {
-    width: 100px;
-    right: 110%;
+    width: 120px;
+    right: 100%;
   }
+  .menu-open{
+    width: 78vw;
+}
   .header-icon-btn {
     padding: 10px 8px 6px 8px;
   }
